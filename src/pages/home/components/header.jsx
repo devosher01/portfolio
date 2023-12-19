@@ -1,6 +1,6 @@
 import React from "react";
 import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
-import profileImage from '../../assets/foto.jpg';
+import profileImage from '../../../assets/foto.jpg';
 
 const SocialLink = ({ href, children }) => (
     <a href={href} target="_blank" rel="noopener noreferrer" className="bg-[#1A1A1A] rounded-14 p-2 transition-colors duration-200 hover:bg-white hover:text-black">

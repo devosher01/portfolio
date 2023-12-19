@@ -6,6 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'text-shadow': '0 2px 5px rgba(0, 0, 0, 0.5)',
+      },
+      width: {
+        '388': '388px',
+      },
+      height: {
+        '240': '240px',
+      },
       borderRadius: {
         '14': '14px',
       },
@@ -21,17 +30,9 @@ export default {
         'name': '#AC99FF',
         'light-gray': '#999999',
         'lighter-gray': '#e6e6e6',
+        'bg-container': '#0F0F0F',
+        "skill-container": "#1a1a1a",
       },
-      animation: {
-        'slide-right': 'slide-right 2s infinite',
-      },
-      keyframes:{
-        'slide-right': {
-          '0%': { transform: 'translateX(0)' },
-          '50%': { transform: 'translateX(10px)' },
-          '100%': { transform: 'translateX(0)' },
-        },
-      }
     },
   },
   variants: {
