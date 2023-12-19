@@ -3,6 +3,7 @@ import Header from "./components/header.jsx";
 import AboutMe from "./components/about_me.jsx";
 import Divider from "../../components/divider.jsx";
 import Skills from "./components/Skills.jsx";
+import Tools_Container from "./components/tools.jsx";
 
 const Home = () => {
     return (
@@ -12,6 +13,8 @@ const Home = () => {
             <AboutMe/>
             <Divider/>
             <Skills/>
+            <Divider/>
+            <Tools_Container/>
         </div>
     );
 };

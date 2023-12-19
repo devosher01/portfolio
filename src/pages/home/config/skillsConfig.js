@@ -12,6 +12,7 @@ const skills = [
     { name: 'Dart', color: 'bg-blue-600', textColor: 'text-white', Icon: SiIcons.SiDart },
     { name: 'Rest API', color: 'bg-red-600', textColor: 'text-white', Icon: SiIcons.SiPostman },
     { name: 'Golang', color: 'bg-blue-300', textColor: 'text-black', Icon: SiIcons.SiGo },
+    { name: 'PostgreSQL', color: 'bg-blue-500', textColor: 'text-white', Icon: SiIcons.SiPostgresql},
 ];
 
 export default skills;
