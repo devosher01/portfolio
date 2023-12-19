@@ -19,7 +19,24 @@ export default {
         'quaternary': '#66FCF1',
         'quinary': '#C5C6C7',
         'name': '#AC99FF',
+        'light-gray': '#999999',
+        'lighter-gray': '#e6e6e6',
       },
+      animation: {
+        'slide-right': 'slide-right 2s infinite',
+      },
+      keyframes:{
+        'slide-right': {
+          '0%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(10px)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+      }
+    },
+  },
+  variants: {
+    extend: {
+      animation: ['hover', 'focus'],
     },
   },
   plugins: [],
