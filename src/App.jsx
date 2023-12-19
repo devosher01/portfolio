@@ -1,10 +1,10 @@
-import React from 'react';
-import './index.css';
+import React from "react";
+import Header from "./components/header.jsx";
 
 const App = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h1 className="text-4xl font-bold">Hola Mundo</h1>
+    <div className="flex justify-center items-start h-screen bg-black pt-10">
+      <Header />
     </div>
   );
 };
