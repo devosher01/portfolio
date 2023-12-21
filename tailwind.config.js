@@ -35,11 +35,5 @@ export default {
       },
     },
   },
-  variants: {
-    extend: {
-      animation: ['hover', 'focus'],
-    },
-  },
   plugins: [],
 }
-

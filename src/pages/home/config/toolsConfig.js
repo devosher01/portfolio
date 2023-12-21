@@ -12,7 +12,7 @@ const tools = [
     { name: 'Git', color: 'bg-red-500', textColor: 'text-white', Icon: DiIcons.DiGit },
     { name: 'GitHub', color: 'bg-black', textColor: 'text-white', Icon: DiIcons.DiGithubBadge },
     { name: 'Vercel', color: 'bg-black', textColor: 'text-white', Icon: Io5Icons.IoLogoVercel },
-    {name: 'TablePlus', color: 'bg-blue-500', textColor: 'text-white', Icon: GiIcons.GiElephant},
+    {name: 'TablePlus', color: 'bg-yellow-400', textColor: 'text-black', Icon: GiIcons.GiElephant},
 ];
 
 export default tools;
